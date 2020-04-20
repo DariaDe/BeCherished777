@@ -76,7 +76,7 @@ body{
 }
 
 #features{
-  height: 100px;
+  height: 200px;
   position:relative;
   z-index: 1;
 }
@@ -90,13 +90,15 @@ body{
   #title .container-fluid{
     padding: 3% 7% 10%;
   }
-  
-  .big-heading{
+
+.big-heading{
   font-size: 4rem;
 }
 .nav-brand{
   font-size: 3rem;
 }
+
+
 
 .nav-link{
   font-weight: bold;
@@ -104,6 +106,7 @@ body{
 
   .title-image{
     position: static;
-    padding-top: 10%;
+    padding-top: 8%;
+    height:150%;
   }
 }
