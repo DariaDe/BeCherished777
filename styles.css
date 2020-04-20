@@ -57,11 +57,11 @@ body{
 
 .navbar-brand{
   font-family:"Dancing Script",cursive;
-  font-size: 2rem;
+  font-size: 2.75rem;
 }
 
 .nav-link{
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   font-family:  'Merriweather', serif;
   font-weight: 400;
 }
@@ -86,7 +86,9 @@ body{
     text-align: center;
 
   }
-
+  #title .container-fluid{
+    padding: 3% 10% 10%;
+  }
 
   .title-image{
     position: static;
