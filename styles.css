@@ -38,11 +38,11 @@ body{
 
 /* Title Image */
 .title-image{
- height: 140%;
+ height: 108%;
 
  position: relative;
- bottom:-17%;
- left:5%;
+ bottom:-31%;
+  left:-10%
 }
 
 /* NavBar */
