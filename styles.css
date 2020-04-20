@@ -83,7 +83,7 @@ body{
   z-index: 1;
 }
 
-@media(max-width: 1028px){
+/* @media(max-width: 1028px){
   #title{
     text-align: center;
 
@@ -114,3 +114,4 @@ body{
     height:108%;
   }
 }
+ */
