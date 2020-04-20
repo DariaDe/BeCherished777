@@ -90,6 +90,13 @@ body{
   #title .container-fluid{
     padding: 3% 7% 10%;
   }
+  
+  .big-heading{
+  font-size: 3.75rem;
+}
+.nav-brand{
+  font-size: 3rem;
+}
 
 .nav-link{
   font-weight: bold;
