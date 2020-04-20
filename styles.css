@@ -89,7 +89,7 @@ body{
 
   }
 
-  /* #title .container-fluid{
+  #title .container-fluid{
     padding: 3% 7% 10%;
   }
 
@@ -112,4 +112,4 @@ body{
     padding-top: 8%;
     height:150%;
   }
-} */
+}
