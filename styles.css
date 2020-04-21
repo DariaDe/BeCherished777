@@ -13,6 +13,7 @@ body{
 .coloured-section{
   /* background-color: #ea9abb; */
 background-image: url("Images/titleBack.png");
+background-size: cover;
 
   color: white;
 }
@@ -43,7 +44,7 @@ background-image: url("Images/titleBack.png");
  height: 108%;
 
  position: relative;
- bottom:-31%;
+ bottom:-35.5%;
   left:-10%
 }
 
@@ -90,8 +91,17 @@ background-image: url("Images/titleBack.png");
     text-align: center;
   }
 
+  .navbar-title{
+    padding-bottom: 8%;
+  }
+
   .title-image{
-    bottom:-23%;
+    bottom:-10%;
+  }
+
+  #title .container-fluid{
+
+    padding-bottom: 0%;
   }
 }
 /*
