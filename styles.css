@@ -1,6 +1,9 @@
 body{
   font-family: 'Merriweather', serif;
+  text-align: center;
 }
+
+
 
 /* Containers */
 
@@ -71,7 +74,7 @@ background-size: cover;
   color:#3d0240;
 }
 
-.fab{
+.insta{
   padding-right: 10px;
   color:#3d0240;
 }
@@ -80,10 +83,34 @@ background-size: cover;
   color:#3d0240;
 }
 
+/* Feature Section  */
+
 #features{
-  height: 200px;
+ font-family:  'Merriweather', serif;
   position:relative;
   z-index: 1;
+}
+
+#features .container-fluid{
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  margin: 1rem;
+  font-size: 4rem;
+  color: #ff9999;
+}
+
+.feature-title{
+  font-weight: bold;
+  /* font-size: 1.5rem; */
+}
+.icon:hover{
+  color:#7d156d;
 }
 
 @media(max-width: 990px){
@@ -102,6 +129,10 @@ background-size: cover;
   #title .container-fluid{
 
     padding-bottom: 0%;
+  }
+  .feature-box{
+    padding-right: 15%;
+    padding-left: 15%;
   }
 }
 /*
