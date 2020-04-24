@@ -3,6 +3,10 @@ body{
   text-align: center;
 }
 
+p{
+  font-size: 1rem;
+
+}
 
 /* Containers */
 
@@ -158,12 +162,49 @@ h2.logo{
 
 }
 
+.overlay{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height:100%;
+  width:100%;
+  opacity:0;
+  transition: .5s ease;
+  background-color: white;
+}
 
+.team-container:hover .overlay{
+  opacity:1;
+}
+
+.text{
+  color:#393e46;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align:center;
+
+}
+
+@media(min-width:991px) and (max-width:1173px){
+  .text p{
+    font-size: 0.85rem;
+    padding-left: 4.75%;
+    padding-right: 4.75%;
+  }
+
+}
 
 @media(max-width: 990px){
+
+
   #title{
     text-align: center;
   }
+
 
   .navbar-title{
     padding-bottom: 8%;
@@ -188,7 +229,7 @@ h2.logo{
   }
 
   .team-col{
-    padding:13% 13%;
+    padding:14% 14%;
 
   }
 
@@ -196,6 +237,10 @@ h2.logo{
     transform: scale(1.1);
 
   }
+.text p{
+  font-size: 1.25rem;
+}
+
 }
 
 /* experiments */
