@@ -152,7 +152,7 @@ background-size: cover;
 }
 
 .team-col{
-  padding:2% 5%;
+  padding:2% 4%;
 
 }
 .team-container:hover
@@ -342,20 +342,37 @@ h2.logo{
 }
 
 @media (max-width:591px){
+  .title-image{
+    bottom:-22%;
+  }
+
   .main-logo{
     padding-top: 3%;
     padding-bottom: 1%;
 
   }
+
+  #features{
+    padding:5% 0;
+  }
+
+  .feature-box{
+    padding-bottom: 6%;
+  }
   .team-col{
-    margin:4% 3%;
+    margin:5% 3%;
     width:73%;
     position: relative;
     left:10%;
+    padding:2% 3%;
   }
 
   .text p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  #testimonials{
+    padding:8% 2%;
   }
 
 
