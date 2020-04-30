@@ -1,0 +1,579 @@
+body{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+p{
+  font-size: 1rem;
+
+}
+
+/* Containers */
+
+.container{
+  padding: 7% 15%;
+}
+
+
+/* Section Colour */
+
+.coloured-pattern-section{
+  /* background-color: #ea9abb; */
+background-image: url("Images/titleBack.png");
+background-size: cover;
+
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+.coloured-section{
+ background-color: #ffc2c2;
+}
+
+/* Headings */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+/* Title Section */
+
+#title {
+  /* padding: 5% 5% 0%; */
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 10%;
+}
+
+/* Title Image */
+.title-image{
+ height: 108%;
+
+ position: relative;
+ bottom:-35.5%;
+  left:-10%
+}
+
+/* NavBar */
+.navbar {
+  padding: 0 0 3.2rem;
+  /* Избавляемся от padding слева, чтобы логотип располагался на одном уровне с последующим текстом */
+}
+
+.nav-item {
+  padding: 0 15px;
+
+}
+
+.logo{
+  font-family:"Dancing Script",cursive;
+  font-size: 2.75rem;
+}
+
+.nav-link{
+  font-size: 1.6rem;
+  font-family:  'Merriweather', serif;
+  font-weight: 400;
+  color:#3d0240;
+}
+
+.insta{
+  padding-right: 10px;
+  color:#3d0240;
+}
+
+.title-btn{
+  color:#3d0240;
+}
+
+/* Feature Section  */
+
+#features{
+  padding:4% 3%;
+ font-family:  'Merriweather', serif;
+  position:relative;
+  z-index: 1;
+}
+
+#features .container-fluid{
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  margin: 1rem;
+  font-size: 4rem;
+  color: #ff9999;
+}
+
+.feature-title{
+  font-weight: bold;
+  /* font-size: 1.5rem; */
+}
+.icon:hover{
+  color:#7d156d;
+}
+
+/* Team Section */
+
+#team .container-fluid{
+    padding-top:3%;
+    padding-bottom: 3%;
+}
+.team-card{
+  color: #232020;
+}
+.name{
+  font-size: 1.45rem;
+  font-weight: bold;
+}
+.prof{
+  font-size: 1rem;
+}
+
+.team-col{
+  padding:2% 5%;
+}
+.team-container:hover
+{
+  /* box-shadow: 1px 1px 20px 0 grey; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.team-hr{
+   border: 0.5px solid grey;
+}
+
+h2.logo{
+  margin-bottom: 1%;
+}
+
+
+
+.hover01 {
+
+  transform: scale(1);
+  transition: scale, 2s;
+
+}
+.hover01:hover {
+  transform: scale(1.2);
+
+}
+
+.overlay{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height:100%;
+  width:100%;
+  opacity:0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.team-container:hover .overlay{
+  opacity:1;
+}
+
+.text{
+  color:#393e46;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align:center;
+
+}
+
+/* Testimonials */
+#testimonials{
+  /* padding: 7% 9%; */
+  padding:3% 2%;
+
+
+}
+
+.carousel-item{
+  padding:7% 11%;
+
+
+}
+
+
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonials-image.maria{
+  margin-top: 4.5%;
+}
+
+.feedback{
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+/* Pricing */
+
+#pricing{
+  background-color: #eab0d9;
+  padding: 10% 5%;
+}
+
+
+.price-list{
+margin-left: 3%;
+margin-right: 3%;
+}
+
+
+.pricing-text li{
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+.pricing-content{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.pricingTable3 {
+  padding: 25px 4% 70px;
+  margin: 0 -6%;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  left:15%;
+
+}
+
+.pricingTable3:after, .pricingTable3:before {
+  content: "";
+  position: absolute;
+  left: 0;
+
+}
+
+.pricingTable3 .price-value .amount { /*рубль маленький наверху*/
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 700
+}
+
+
+.pricingTable3:before {
+
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  z-index: -1;
+  -webkit-clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+  clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+.pricingTable3:after {
+  width: 70px;
+  height: 30px;
+  background: #ffd5e5;
+  margin: 0 auto;
+  top: 70px;
+  right: 0;
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+  clip-path: polygon(50% 100%, 0 0, 100% 0)
+}
+
+.pricingTable3 .title {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  padding: 15px 0;
+  margin: 0 -25px 30px;
+  background: #ffd5e5;
+  font-size: 1.2rem;
+  color: #26191b;
+  text-transform: uppercase;
+  position: relative
+}
+
+/* Уголочки */
+.pricingTable3 .title:after, .pricingTable3 .title:before {
+  border-top: 15px solid #65587f;
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  bottom: -30px;
+  content: ""
+}
+
+.pricingTable3 .title:before {
+  border-left: 15px solid transparent;
+  left: 0
+}
+
+.pricingTable3 .title:after {
+  border-right: 15px solid transparent;
+  right: 0
+}
+
+.pricingTable3 .price-value {
+  margin-bottom: 25px;
+  color: #26191b
+}
+
+/* Рубль */
+.pricingTable3 .currency {
+  display: inline-block;
+  font-size: 30px;
+  vertical-align: top;
+  margin-top: 8px
+}
+
+.price-value3 .amount {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 700
+}
+
+
+
+.pricingTable3 .pricing-content {
+  padding: 0;
+  margin: 0 0 17%;
+  list-style: none;
+  border-top: 1px solid #8f8f8f;
+  border-bottom: 1px solid #8f8f8f
+
+}
+
+.pricing-text{
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.pricingTable3 .pricing-content li {
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: #352961;
+  line-height: 1.5rem;
+}
+
+.pricingTable3 .pricingTable-signup {
+  display: inline-block;
+  padding: 3% 15%;
+  background: #ffd5e5;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #26191b;
+  overflow: hidden;
+  position: relative;
+  transition: all .7s ease 0s
+}
+
+/* Получается, есть блок невидимый, который содержит в себе градиент. С помощью
+transform: translate(0, -100%) мы передвинем этот градиент наверх сквозь ХОЧУ.
+Тем самым, получится блик. */
+
+.button-box{
+  margin-top:-3%;
+}
+
+
+.pricingTable3 .pricingTable-signup:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translate(0, 100%);
+  transition: all .6s ease-in-out 0s
+}
+
+.pricingTable3 .pricingTable-signup:hover:before {
+  opacity: 1;
+  transform: translate(0, -100%)
+}
+
+.pricingTable3.blue .pricingTable-signup, .pricingTable3.blue .title, .pricingTable3.blue:after {
+  background: ##ffd5e5;
+}
+
+.pricingTable3.blue .title:after, .pricingTable3.blue .title:before {
+  border-top: 15px solid #65587f;
+}
+
+.pricingTable3.blue .price-value {
+  color: #26191b
+}
+
+.pricingTable3.pink .pricingTable-signup, .pricingTable3.pink .title, .pricingTable3.pink:after {
+  background: #d291bc;
+}
+
+.pricingTable3.pink .price-value {
+  color: #26191b;
+}
+
+.pricingTable3.pink .title.dark{
+  color:white;
+}
+
+.pricingTable-signup.dark{
+  color:white;
+}
+
+.pricingTable3.pink .title:after, .pricingTable3.pink .title:before {
+  border-top: 15px solid #773667;
+
+
+  }
+
+
+
+@media(min-width:992px) and (max-width:1173px){
+
+  .text p{
+    font-size: 0.85rem;
+    padding-left: 4.75%;
+    padding-right: 4.75%;
+  }
+
+
+}
+
+@media(min-width:592px) and (max-width: 991px){
+
+
+  #title{
+    text-align: center;
+  }
+
+
+  .navbar-title{
+    padding-bottom: 8%;
+  }
+
+  .title-image{
+    bottom:-10%;
+  }
+
+  #title .container-fluid{
+
+    padding-bottom: 0%;
+  }
+
+  #features .container-fluid{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+  .feature-box{
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .team-col{
+
+    margin:3% 3%;
+    width:70%;
+    height:80%;
+    position: relative;
+    left:13%;
+  }
+
+  .main-logo{
+    padding-top: 3%;
+
+  }
+
+  .hover01:hover {
+    transform: scale(1.1);
+
+  }
+.text p{
+  font-size: 1.25rem;
+}
+
+
+}
+
+@media(max-width:696px){
+  .testimonials-image {
+    width: 17%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .feedback{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width:591px){
+  .main-logo{
+    padding-top: 3%;
+    padding-bottom: 1%;
+
+  }
+  .team-col{
+    margin:4% 3%;
+    width:73%;
+    position: relative;
+    left:10%;
+  }
+
+
+}
+
+/* Pricing @media */
+
+@media (min-width: 991px) and (max-width: 1075px){
+  .pricingTable3 .pricing-content li{
+    font-size: 1.05rem;
+  }
+}
+
+
+@media(max-width:990px){
+  .pricingTable3 {
+    padding: 25px 10px 70px;
+  margin: 0 25%;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    left:2%;
+
+  }
+
+  .price-list{
+    margin-top: 5%;
+    margin-bottom:7%;
+  }
+
+
+}
+
+
+/* experiments */
