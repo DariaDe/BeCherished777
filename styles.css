@@ -348,8 +348,12 @@ h2.logo{
 
   .main-logo{
     padding-top: 3%;
-    /* padding-bottom: 1%; */
+    padding-bottom: 1%;
 
+  }
+
+  .navbar-title{
+    padding-bottom: 6%;
   }
 
   #features{
@@ -368,7 +372,7 @@ h2.logo{
   }
 
   .text p{
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   #testimonials{
