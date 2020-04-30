@@ -355,6 +355,9 @@ h2.logo{
   .navbar-title{
     padding-bottom: 6%;
   }
+  .nav-item{
+    text-align: center;
+  }
 
   #features{
     padding:5% 0;
